@@ -674,74 +674,6 @@ def GenAI_and_machine_learning():
     """)
 
 
-def investor_pitch():
-    st.title("📢 **Investor Pitch for Home$crapper**")
-    st.write("---")
-
-    st.markdown("""
-    **Investor Pitch for Home$crapper**
-
-    **Introduction**
-
-    Good afternoon, everyone. Thank you for being here today. We are thrilled to present **Home$crapper**, a pioneering platform that addresses two critical issues: waste management and the growing demand for sustainable commerce. Our mission is to transform how individuals and businesses approach scrap materials and second-hand goods, making the process efficient, transparent, and environmentally friendly.
-
-    At **Home$crapper**, we believe that every piece of scrap has value, and our platform is designed to ensure that users receive fair compensation based on the quality and quantity of their materials. With the integration of advanced machine learning models, we are set to revolutionize the marketplace for scrap and second-hand items.
-
-    **Problem Statement**
-
-    Let’s take a moment to consider the scale of the problem we are tackling. Globally, over **2 billion tons** of waste are generated each year, with a significant portion ending up in landfills. This not only contributes to environmental degradation but also represents a loss of valuable resources that could be recycled or reused.
-
-    Current scrap marketplaces operate on standard pricing models, which often undervalue high-quality materials. This leads to frustration among sellers who feel they are not receiving a fair price for their scrap. Additionally, buyers face challenges in understanding the true value of second-hand goods, leading to a lack of trust in transactions.
-
-    In short, there is a pressing need for a solution that not only streamlines waste management but also enhances the value proposition for both sellers and buyers in the second-hand market.
-
-    **Our Solution**
-
-    **Home$crapper** offers an innovative solution by combining waste management with a second-hand marketplace. Our platform utilizes machine learning algorithms to provide customized pricing for scrap based on its quality and quantity. This means that instead of relying on fixed rates, our users receive fair compensation tailored to the specific characteristics of their materials.
-
-    Our user-friendly interface allows individuals and businesses to easily list items for sale or report unwanted materials for scrapping. By leveraging technology, we ensure transparency in transactions and create an engaging experience for our users.
-
-    **Key features of Home$crapper include:**
-
-    - **Custom Pricing Model**: Tailored pricing based on real-time analysis of material quality.
-    - **Feedback Analysis**: Utilizing sentiment analysis on user feedback to continuously improve our offerings.
-    - **Recommendation System**: Personalized product suggestions based on user behavior enhance engagement and satisfaction.
-
-    **Market Opportunity**
-
-    The market opportunity for **Home$crapper** is substantial. The global waste management market is projected to reach **$530 billion** by 2025, growing at a CAGR of 5.5%. Simultaneously, the second-hand market is booming, with an estimated value of **$64 billion** in the U.S. alone.
-
-    **Our target audience includes:**
-
-    - Eco-conscious consumers who prioritize sustainability and seek responsible disposal options.
-    - Sellers looking for fair compensation for their scrap materials, as well as individuals wanting to buy second-hand goods at reasonable prices.
-
-    By tapping into these growing markets, **Home$crapper** is positioned to capture significant market share while promoting environmentally friendly practices.
-
-    **Competitive Advantage**
-
-    What truly sets **Home$crapper** apart from traditional marketplaces is our custom pricing powered by machine learning. While competitors rely on standard rates that often undervalue quality materials, we analyze each item’s unique characteristics to determine its true worth.
-
-    This innovative approach not only maximizes returns for sellers but also fosters a culture of recycling and sustainability within communities. Furthermore, our platform's advanced features—such as feedback analysis and personalized recommendations—create a more engaging user experience compared to existing solutions.
-
-    By prioritizing transparency and fairness in pricing, **Home$crapper** builds trust within the marketplace, encouraging more individuals to participate in recycling efforts.
-
-    **Revenue Model**
-
-    Our revenue model is designed to be sustainable and scalable:
-
-    - **Transaction Fees**: We charge a percentage fee on each completed transaction between buyers and sellers.
-    - **Premium Listings**: Sellers can opt for enhanced visibility on the platform through paid listings.
-    - **Partnerships with Recycling Companies**: Collaborating with local recyclers allows us to streamline waste management solutions while generating additional revenue streams.
-
-    **Call to Action**
-
-    With sufficient funding, we aim to scale our operations, enhance our technology infrastructure, and expand our market reach. With your support, we can transform **Home$crapper** into a leading platform for sustainable commerce while making a significant positive impact on waste management practices.
-
-    **Join us** in revolutionizing how we value scrap materials and promote sustainable living. Together, we can create a cleaner future while building a profitable business model that benefits all stakeholders involved.
-
-    **Thank you for your time! I am happy to answer any questions you may have.**
-    """)
 
 def main():
     # Sidebar Navigation
@@ -751,7 +683,7 @@ def main():
         "Frontend": frontend,
         "Backend": backend,
         "GenAI and Machine learning": GenAI_and_machine_learning,
-        "Investor Pitch": investor_pitch,
+        # "Investor Pitch": investor_pitch,
         # Include other pages if necessary
     }
     selected_page = st.sidebar.selectbox("Navigate to:", options=list(pages.keys()))
